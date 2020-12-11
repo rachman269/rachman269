@@ -98,6 +98,50 @@
       </div>
     </section>
     <!--//about-->
+    <!--friends & honors -->
+    <section class="honors py-lg-4 py-md-3 py-sm-3 py-3">
+      <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
+        <h3 class="title clr text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Invitation</h3>
+        <div class="flexslider">
+          <ul class="slides">
+            <li>
+              <div class="row no-gutters">
+                <div class="col-lg-12">
+                  <div class="clients-w3layouts-txt">
+                    <p class="text-center justify-content-end">
+                    
+                    Wa ming kulli syai'in khalaqna dzaujaini la'allakum tadzakkaruna
+                    <br>
+                    Dan segala sesuatu Kami ciptakan berpasang-pasangan supaya kamu mengingat kebesaran Allah. <br>
+                    (Qs Adz-Dzariyyat 51:49)
+                    <br><br>
+                    Bissmillahirrohmanirrohim <br>
+                    Assalamu'alaikum Wr. Wb
+                    <br>
+                    Atas limpahan Rahmat Allah Subhanahu Wa Ta'ala dan kita memohon <br> Ridho-nya untuk mengikuti sunnah Rasul-nya dalam membentuk keluarga yang Sakinah, mawaddah, warahmah <br> maka kita bermaksud mengucap ikrar suci dalam walimatul'urs pernikahan kita : <br>
+                    Asna Nurfadilah <br>
+                    & <br> 
+                    Rahman <br>
+                    Yang Insya Allah akan dilaksanakan pada : <br>
+                    Minggu,  20 Desember 2020 <br>
+                    Akad nikah  : 10.00 WIB <br>
+
+                    Kp. Pariuk masjid,  Rt/Rw 002/004, Sukamekarsari,  Kalanganyar, Lebak-Banten. <br><br>
+
+                    Merupakan suatu kehormatan dan kebahagiaan bagi kita apa bila rekan-rekan,  saudara/i berkenan hadir,   memberikan Do'a Restu di hari bahagia kita, Amminn yarabbal alamminn. <br>
+
+                    Wassalamu'alaikum Wr. Wb
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--//friends & honors -->
     <!--Crazy Movements-->
     <section class="crazy-move-pic py-lg-4 py-md-3 py-sm-3 py-3">
       <div class="container-fluid py-lg-5 py-md-4 py-sm-4 py-3">
@@ -132,7 +176,6 @@
       </div>
     </footer>
     <!--//footer -->
-    <!--js working-->
     <script src='js/jquery-2.2.3.min.js'></script>
     <!--//js working-->
     <script src="js/jquery-sakura.min.js"></script>
@@ -153,7 +196,9 @@
                   interval: 5000,
                   pauseOnHover: true
               }        
-          });          
+          });
+             
+          
       });
     </script>
     <!--// flexisel image slider -->
@@ -174,6 +219,55 @@
       });
     </script>
     <!-- //friends-honors FlexSlider -->
+    <script src="js/simplyCountdown.js"></script>
+    <script>
+      /**
+       * WARNING: I set this coundtown to be running until the end of times.
+       * So when you'll init the plugin, follow how it's done in plugin documentation.
+       */
+      var d = new Date();
+        d.setDate(d.getDate() + 19);
+      
+        // default example
+        simplyCountdown('.simply-countdown-one', {
+            year: d.getFullYear(),
+            month: d.getMonth() + 1,
+            day: d.getDate()
+        });
+    </script>
+    <!-- start-smoth-scrolling -->
+    <script src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+      	$(".scroll").click(function (event) {
+      		event.preventDefault();
+      		$('html,body').animate({
+      			scrollTop: $(this.hash).offset().top
+      		}, 900);
+      	});
+      });
+    </script>
+    <!-- start-smoth-scrolling -->
+    <!-- here stars scrolling icon -->
+    <script>
+      $(document).ready(function () {
+      
+      	var defaults = {
+      		containerID: 'toTop', // fading element id
+      		containerHoverID: 'toTopHover', // fading element hover id
+      		scrollSpeed: 1200,
+      		easingType: 'linear'
+      	};
+      
+      
+      	$().UItoTop({
+      		easingType: 'easeOutQuart'
+      	});
+      
+      });
+    </script>
+    <!-- //here ends scrolling icon -->
     <!--bootstrap working-->
     <script src="js/bootstrap.min.js"></script>
     <!-- //bootstrap working-->
