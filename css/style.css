@@ -144,7 +144,7 @@ ul li {
 
 .header-outs {
   position: relative;
-  background: url(../images/bg-home.jpg) no-repeat 0px 0px;
+  background: url(../images/str3.jpg) no-repeat 0px 0px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -439,7 +439,7 @@ ul.short_ls li {
 }
 
 .simply-countdown {
-  overflow: hidden;
+  overflow: visible;
   display: table;
 }
 

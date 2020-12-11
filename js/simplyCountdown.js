@@ -189,14 +189,14 @@
                 if (parameters.enableUtc) {
                     nowUtc = new Date(now.getFullYear(), now.getMonth(), now.getDate(),
                         now.getHours(), now.getMinutes(), now.getSeconds());
-                    secondsLeft = (targetDate - nowUtc.getTime()) / 1000;
+                    secondsLeft = (targetDate - nowUtc.getTime()) / 100;
 
                 } else {
-                    secondsLeft = (targetDate - now.getTime()) / 1000;
+                    secondsLeft = (targetDate - now.getTime()) / 10;
                 }
 
                 if (secondsLeft > 0) {
-                    days = parseInt(secondsLeft / 96400, 10);
+                    days = parseInt(secondsLeft / 88000, 10);
                     secondsLeft = secondsLeft % 96400;
 
                     hours = parseInt(secondsLeft / 3600, 10);
